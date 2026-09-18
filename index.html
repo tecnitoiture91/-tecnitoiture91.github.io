@@ -1,94 +1,1377 @@
 <!doctype html>
+
 <html lang="fr">
+
 <head>
+
   <meta charset="utf-8">
+
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Techni Toiture — Rénovation, réparation et nettoyage de toiture</title>
-  <meta name="description" content="Techni Toiture — Travaux de couverture, rénovation, réparation, nettoyage et zinguerie. Demandez votre devis.">
+
+  <title>Techni Toiture | Rénovation, réparation et entretien de toiture</title>
+
+  <meta name="description" content="Techni Toiture réalise vos travaux de toiture : rénovation, réparation, nettoyage, couverture, zinguerie et entretien. Demandez votre devis gratuit.">
+
+  <meta name="robots" content="index, follow">
+
+  <meta name="theme-color" content="#06243a">
+
+  <link rel="canonical" href="https://www.technitoiture.fr/">
+
+  <meta property="og:type" content="website">
+
+  <meta property="og:title" content="Techni Toiture | Travaux de toiture">
+
+  <meta property="og:description" content="Rénovation, réparation, nettoyage, couverture et zinguerie. Contactez Techni Toiture pour votre projet.">
+
+  <meta property="og:url" content="https://www.technitoiture.fr/">
+
   <style>
-    :root{--navy:#06243a;--navy2:#031a2b;--orange:#ff9718;--light:#f5f8fa;--text:#173047;--muted:#607487;--white:#fff}
-    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--text);background:#fff;line-height:1.55}
-    a{text-decoration:none;color:inherit}.container{width:min(1120px,92%);margin:auto}
-    header{position:sticky;top:0;z-index:10;background:rgba(3,26,43,.97);color:#fff;border-bottom:1px solid rgba(255,255,255,.1)}
-    .nav{height:72px;display:flex;align-items:center;justify-content:space-between;gap:24px}
-    .logo{font-weight:900;font-size:22px;letter-spacing:-.6px}.logo span{color:var(--orange)}.tag{font-size:11px;color:#d7e3eb;display:block;font-weight:500}
-    nav{display:flex;gap:25px;align-items:center;font-size:14px}nav a:hover{color:var(--orange)}
-    .phone{background:var(--orange);color:#fff;padding:12px 19px;border-radius:28px;font-weight:800}
-    .hero{color:#fff;min-height:610px;display:flex;align-items:center;background:
-      linear-gradient(90deg,rgba(3,26,43,.96) 0%,rgba(3,26,43,.78) 43%,rgba(3,26,43,.18) 100%),
-      url("https://images.unsplash.com/photo-1598228723793-52759bba239c?auto=format&fit=crop&w=1800&q=85") center/cover}
-    .hero-copy{max-width:650px;padding:70px 0}.eyebrow{letter-spacing:4px;font-size:13px;color:#e8eef2;font-weight:700}
-    h1{font-size:clamp(42px,6vw,72px);line-height:1.02;margin:14px 0 20px;letter-spacing:-2px}.orange{color:var(--orange)}
-    .hero p{font-size:19px;max-width:600px;color:#eef4f7}.buttons{display:flex;gap:14px;flex-wrap:wrap;margin-top:30px}
-    .btn{padding:15px 23px;border-radius:30px;font-weight:800;display:inline-block}.primary{background:var(--orange);color:#fff}.secondary{border:1px solid #fff;color:#fff}
-    .trust{display:grid;grid-template-columns:repeat(4,1fr);background:var(--navy2);color:#fff}.trust div{padding:23px 20px;border-right:1px solid rgba(255,255,255,.12);font-weight:700}
-    section{padding:78px 0}.section-head{margin-bottom:38px}.section-head h2{font-size:38px;margin:0 0 10px;color:var(--navy)}.section-head p{color:var(--muted);max-width:650px}
-    .bar{width:36px;height:4px;background:var(--orange);margin-bottom:12px}.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
-    .card{padding:28px;border:1px solid #e3ebf0;border-radius:16px;background:#fff;box-shadow:0 8px 25px rgba(6,36,58,.06)}.icon{font-size:32px}.card h3{margin:14px 0 8px;color:var(--navy)}.card p{color:var(--muted);margin:0}
-    .real{background:var(--light)}.gallery{display:grid;grid-template-columns:1.2fr .8fr .8fr;gap:14px}.gallery img{width:100%;height:250px;object-fit:cover;border-radius:14px}.gallery img:first-child{height:514px;grid-row:span 2}
-    .about{display:grid;grid-template-columns:1fr 1fr;gap:55px;align-items:center}.about img{width:100%;height:430px;object-fit:cover;border-radius:18px}
-    .checks{list-style:none;padding:0}.checks li{margin:13px 0;font-weight:700}.checks li:before{content:"✓";color:var(--orange);font-weight:900;margin-right:12px}
-    .reviews{background:var(--light)}.review-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.review{background:#fff;padding:25px;border-radius:14px}.stars{color:var(--orange);letter-spacing:2px}.review p{font-style:italic}.review small{color:var(--muted)}
-    .contact{background:var(--navy);color:#fff}.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:50px}.contact h2{color:#fff}.contact p{color:#d7e3eb}.contact-box{background:rgba(255,255,255,.07);padding:28px;border-radius:16px}.contact a{color:#fff}
-    footer{background:var(--navy2);color:#b9c9d3;padding:24px 0;font-size:13px}.footer-row{display:flex;justify-content:space-between;gap:20px}
-    @media(max-width:850px){nav{display:none}.trust{grid-template-columns:1fr 1fr}.cards,.review-grid{grid-template-columns:1fr 1fr}.about,.contact-grid{grid-template-columns:1fr}.gallery{grid-template-columns:1fr 1fr}.gallery img:first-child{height:300px;grid-row:auto}.hero{min-height:560px}}
-    @media(max-width:560px){.trust,.cards,.review-grid,.gallery{grid-template-columns:1fr}.gallery img,.gallery img:first-child{height:240px}.hero-copy{padding:50px 0}.hero p{font-size:16px}section{padding:55px 0}.footer-row{display:block}}
+
+    :root{
+
+      --navy:#06243a;
+
+      --navy2:#031a2b;
+
+      --orange:#ff9718;
+
+      --light:#f5f8fa;
+
+      --text:#173047;
+
+      --muted:#607487;
+
+      --white:#fff;
+
+      --border:#e3ebf0;
+
+    }
+
+    *{
+
+      box-sizing:border-box;
+
+    }
+
+    html{
+
+      scroll-behavior:smooth;
+
+    }
+
+    body{
+
+      margin:0;
+
+      font-family:Arial,Helvetica,sans-serif;
+
+      color:var(--text);
+
+      background:#fff;
+
+      line-height:1.6;
+
+    }
+
+    img{
+
+      max-width:100%;
+
+      display:block;
+
+    }
+
+    a{
+
+      text-decoration:none;
+
+      color:inherit;
+
+    }
+
+    .container{
+
+      width:min(1120px,92%);
+
+      margin:auto;
+
+    }
+
+    /* HEADER */
+
+    header{
+
+      position:sticky;
+
+      top:0;
+
+      z-index:1000;
+
+      background:rgba(3,26,43,.98);
+
+      color:#fff;
+
+      border-bottom:1px solid rgba(255,255,255,.1);
+
+    }
+
+    .nav{
+
+      min-height:72px;
+
+      display:flex;
+
+      align-items:center;
+
+      justify-content:space-between;
+
+      gap:20px;
+
+    }
+
+    .logo{
+
+      font-weight:900;
+
+      font-size:22px;
+
+      letter-spacing:-.6px;
+
+      line-height:1.1;
+
+    }
+
+    .logo span{
+
+      color:var(--orange);
+
+    }
+
+    .tag{
+
+      font-size:11px;
+
+      color:#d7e3eb;
+
+      display:block;
+
+      font-weight:500;
+
+      margin-top:4px;
+
+    }
+
+    nav{
+
+      display:flex;
+
+      gap:24px;
+
+      align-items:center;
+
+      font-size:14px;
+
+      font-weight:700;
+
+    }
+
+    nav a:hover{
+
+      color:var(--orange);
+
+    }
+
+    .phone{
+
+      background:var(--orange);
+
+      color:#fff;
+
+      padding:12px 18px;
+
+      border-radius:28px;
+
+      font-weight:800;
+
+      white-space:nowrap;
+
+    }
+
+    /* HERO */
+
+    .hero{
+
+      color:#fff;
+
+      min-height:610px;
+
+      display:flex;
+
+      align-items:center;
+
+      background:
+
+        linear-gradient(
+
+          90deg,
+
+          rgba(3,26,43,.97) 0%,
+
+          rgba(3,26,43,.82) 45%,
+
+          rgba(3,26,43,.25) 100%
+
+        ),
+
+        url("https://images.unsplash.com/photo-1598228723793-52759bba239c?auto=format&fit=crop&w=1800&q=80")
+
+        center/cover;
+
+    }
+
+    .hero-copy{
+
+      max-width:680px;
+
+      padding:80px 0;
+
+    }
+
+    .eyebrow{
+
+      letter-spacing:4px;
+
+      font-size:13px;
+
+      color:#e8eef2;
+
+      font-weight:700;
+
+    }
+
+    h1{
+
+      font-size:clamp(42px,6vw,72px);
+
+      line-height:1.02;
+
+      margin:14px 0 20px;
+
+      letter-spacing:-2px;
+
+    }
+
+    .orange{
+
+      color:var(--orange);
+
+    }
+
+    .hero p{
+
+      font-size:19px;
+
+      max-width:620px;
+
+      color:#eef4f7;
+
+    }
+
+    .buttons{
+
+      display:flex;
+
+      gap:14px;
+
+      flex-wrap:wrap;
+
+      margin-top:30px;
+
+    }
+
+    .btn{
+
+      padding:15px 23px;
+
+      border-radius:30px;
+
+      font-weight:800;
+
+      display:inline-block;
+
+      transition:.2s ease;
+
+    }
+
+    .btn:hover{
+
+      transform:translateY(-2px);
+
+    }
+
+    .primary{
+
+      background:var(--orange);
+
+      color:#fff;
+
+    }
+
+    .secondary{
+
+      border:1px solid #fff;
+
+      color:#fff;
+
+    }
+
+    /* TRUST */
+
+    .trust{
+
+      display:grid;
+
+      grid-template-columns:repeat(4,1fr);
+
+      background:var(--navy2);
+
+      color:#fff;
+
+    }
+
+    .trust div{
+
+      padding:23px 20px;
+
+      border-right:1px solid rgba(255,255,255,.12);
+
+      font-weight:700;
+
+    }
+
+    /* SECTIONS */
+
+    section{
+
+      padding:78px 0;
+
+      scroll-margin-top:80px;
+
+    }
+
+    .section-head{
+
+      margin-bottom:38px;
+
+    }
+
+    .section-head h2{
+
+      font-size:38px;
+
+      margin:0 0 10px;
+
+      color:var(--navy);
+
+      line-height:1.2;
+
+    }
+
+    .section-head p{
+
+      color:var(--muted);
+
+      max-width:700px;
+
+    }
+
+    .bar{
+
+      width:36px;
+
+      height:4px;
+
+      background:var(--orange);
+
+      margin-bottom:12px;
+
+    }
+
+    /* CARDS */
+
+    .cards{
+
+      display:grid;
+
+      grid-template-columns:repeat(3,1fr);
+
+      gap:18px;
+
+    }
+
+    .card{
+
+      padding:28px;
+
+      border:1px solid var(--border);
+
+      border-radius:16px;
+
+      background:#fff;
+
+      box-shadow:0 8px 25px rgba(6,36,58,.06);
+
+      transition:.2s ease;
+
+    }
+
+    .card:hover{
+
+      transform:translateY(-3px);
+
+      box-shadow:0 12px 30px rgba(6,36,58,.10);
+
+    }
+
+    .icon{
+
+      font-size:32px;
+
+    }
+
+    .card h3{
+
+      margin:14px 0 8px;
+
+      color:var(--navy);
+
+    }
+
+    .card p{
+
+      color:var(--muted);
+
+      margin:0;
+
+    }
+
+    /* GALLERY */
+
+    .real{
+
+      background:var(--light);
+
+    }
+
+    .gallery{
+
+      display:grid;
+
+      grid-template-columns:1.2fr .8fr .8fr;
+
+      gap:14px;
+
+    }
+
+    .gallery img{
+
+      width:100%;
+
+      height:250px;
+
+      object-fit:cover;
+
+      border-radius:14px;
+
+    }
+
+    .gallery img:first-child{
+
+      height:514px;
+
+      grid-row:span 2;
+
+    }
+
+    /* ABOUT */
+
+    .about{
+
+      display:grid;
+
+      grid-template-columns:1fr 1fr;
+
+      gap:55px;
+
+      align-items:center;
+
+    }
+
+    .about img{
+
+      width:100%;
+
+      height:430px;
+
+      object-fit:cover;
+
+      border-radius:18px;
+
+    }
+
+    .about h2{
+
+      color:var(--navy);
+
+      font-size:38px;
+
+      line-height:1.2;
+
+    }
+
+    .checks{
+
+      list-style:none;
+
+      padding:0;
+
+    }
+
+    .checks li{
+
+      margin:13px 0;
+
+      font-weight:700;
+
+    }
+
+    .checks li:before{
+
+      content:"✓";
+
+      color:var(--orange);
+
+      font-weight:900;
+
+      margin-right:12px;
+
+    }
+
+    /* CONTACT */
+
+    .contact{
+
+      background:var(--navy);
+
+      color:#fff;
+
+    }
+
+    .contact-grid{
+
+      display:grid;
+
+      grid-template-columns:1fr 1fr;
+
+      gap:50px;
+
+    }
+
+    .contact h2{
+
+      color:#fff;
+
+      font-size:40px;
+
+      line-height:1.2;
+
+    }
+
+    .contact p{
+
+      color:#d7e3eb;
+
+    }
+
+    .contact-box{
+
+      background:rgba(255,255,255,.07);
+
+      padding:28px;
+
+      border-radius:16px;
+
+    }
+
+    .contact-box h3{
+
+      margin-top:0;
+
+      font-size:25px;
+
+    }
+
+    .contact-box a{
+
+      color:#fff;
+
+      font-weight:700;
+
+    }
+
+    /* FOOTER */
+
+    footer{
+
+      background:var(--navy2);
+
+      color:#b9c9d3;
+
+      padding:25px 0;
+
+      font-size:13px;
+
+    }
+
+    .footer-row{
+
+      display:flex;
+
+      justify-content:space-between;
+
+      gap:20px;
+
+    }
+
+    /* MOBILE */
+
+    @media(max-width:850px){
+
+      nav{
+
+        display:none;
+
+      }
+
+      .trust{
+
+        grid-template-columns:1fr 1fr;
+
+      }
+
+      .cards{
+
+        grid-template-columns:1fr 1fr;
+
+      }
+
+      .about,
+
+      .contact-grid{
+
+        grid-template-columns:1fr;
+
+      }
+
+      .gallery{
+
+        grid-template-columns:1fr 1fr;
+
+      }
+
+      .gallery img:first-child{
+
+        height:300px;
+
+        grid-row:auto;
+
+      }
+
+      .hero{
+
+        min-height:560px;
+
+      }
+
+    }
+
+    @media(max-width:560px){
+
+      .nav{
+
+        min-height:66px;
+
+      }
+
+      .logo{
+
+        font-size:18px;
+
+      }
+
+      .phone{
+
+        padding:10px 13px;
+
+        font-size:13px;
+
+      }
+
+      .trust,
+
+      .cards,
+
+      .gallery{
+
+        grid-template-columns:1fr;
+
+      }
+
+      .trust div{
+
+        border-right:0;
+
+        border-bottom:1px solid rgba(255,255,255,.12);
+
+      }
+
+      .gallery img,
+
+      .gallery img:first-child{
+
+        height:240px;
+
+      }
+
+      .hero-copy{
+
+        padding:55px 0;
+
+      }
+
+      .hero p{
+
+        font-size:16px;
+
+      }
+
+      section{
+
+        padding:55px 0;
+
+      }
+
+      .section-head h2,
+
+      .about h2{
+
+        font-size:31px;
+
+      }
+
+      .contact h2{
+
+        font-size:32px;
+
+      }
+
+      .footer-row{
+
+        display:block;
+
+      }
+
+      .footer-row div+div{
+
+        margin-top:8px;
+
+      }
+
+    }
+
+    @media(prefers-reduced-motion:reduce){
+
+      html{
+
+        scroll-behavior:auto;
+
+      }
+
+      .btn,
+
+      .card{
+
+        transition:none;
+
+      }
+
+    }
+
   </style>
+
+  <!-- Données structurées pour les moteurs de recherche -->
+
+  <script type="application/ld+json">
+
+  {
+
+    "@context":"https://schema.org",
+
+    "@type":"RoofingContractor",
+
+    "name":"Techni Toiture",
+
+    "url":"https://www.technitoiture.fr/",
+
+    "telephone":"+33641830010",
+
+    "email":"tecnitoiture91@gmail.com",
+
+    "description":"Travaux de toiture, rénovation, réparation, nettoyage, couverture et zinguerie.",
+
+    "areaServed":"Île-de-France"
+
+  }
+
+  </script>
+
 </head>
+
 <body>
-<header><div class="container nav">
-  <div class="logo">TECHNI <span>TOITURE</span><span class="tag">Votre spécialiste toiture</span></div>
-  <nav><a href="#prestations">Prestations</a><a href="#realisations">Réalisations</a><a href="#avis">Avis clients</a><a href="#contact">Contact</a></nav>
-  <a class="phone" href="tel:VOTRE_NUMERO">📞 Appeler</a>
-</div></header>
 
-<main>
-<section class="hero"><div class="container hero-copy">
-  <div class="eyebrow">TECHNI TOITURE</div>
-  <h1>Votre toiture<br>mérite le <span class="orange">meilleur</span></h1>
-  <p>Rénovation, réparation, nettoyage et entretien de toiture pour protéger durablement votre maison.</p>
-  <div class="buttons"><a class="btn primary" href="#contact">Demander un devis gratuit</a><a class="btn secondary" href="tel:VOTRE_NUMERO">📞 Appeler maintenant</a></div>
-</div></section>
+<header>
 
-<div class="trust"><div>🛡️ Travail soigné<br>et durable</div><div>🏅 Artisan expérimenté<br>et qualifié</div><div>✓ Devis gratuit<br>et sans engagement</div><div>📍 Intervention<br>en Île-de-France</div></div>
+  <div class="container nav">
 
-<section id="prestations"><div class="container"><div class="section-head"><div class="bar"></div><h2>Nos prestations</h2><p>Une toiture en bon état, c’est une maison protégée. Découvrez nos services pour vos travaux de couverture.</p></div>
-<div class="cards">
-  <article class="card"><div class="icon">🏠</div><h3>Rénovation de toiture</h3><p>Remise à neuf complète ou partielle de votre couverture.</p></article>
-  <article class="card"><div class="icon">🔧</div><h3>Réparation de toiture</h3><p>Intervention sur fuites, tuiles cassées et dégradations.</p></article>
-  <article class="card"><div class="icon">✨</div><h3>Nettoyage de toiture</h3><p>Élimination des mousses, lichens et saletés.</p></article>
-  <article class="card"><div class="icon">💧</div><h3>Zinguerie</h3><p>Gouttières, chéneaux, habillages et évacuation des eaux.</p></article>
-  <article class="card"><div class="icon">🔨</div><h3>Pose de couverture</h3><p>Tuiles, ardoises et matériaux adaptés à votre toiture.</p></article>
-  <article class="card"><div class="icon">🧱</div><h3>Échafaudage</h3><p>Mise en sécurité du chantier pour travailler dans de bonnes conditions.</p></article>
-</div></div></section>
+    <a class="logo" href="#accueil" aria-label="Techni Toiture - Accueil">
 
-<section id="realisations" class="real"><div class="container"><div class="section-head"><div class="bar"></div><h2>Nos réalisations</h2><p>Découvrez quelques exemples de chantiers et la qualité de notre travail.</p></div>
-<div class="gallery">
-  <img src="https://images.unsplash.com/photo-1632759145351-1d592919f522?auto=format&fit=crop&w=1000&q=85" alt="Toiture rénovée">
-  <img src="https://images.unsplash.com/photo-1510798831971-661eb04b3739?auto=format&fit=crop&w=900&q=85" alt="Maison et toiture">
-  <img src="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=900&q=85" alt="Détail de toiture">
-</div></div></section>
+      TECHNI <span>TOITURE</span>
 
-<section><div class="container about">
-  <img src="https://images.unsplash.com/photo-1628744448840-55bdb2497bd4?auto=format&fit=crop&w=1100&q=85" alt="Professionnel intervenant sur une toiture">
-  <div><div class="bar"></div><h2>Pourquoi choisir Techni Toiture ?</h2><p>Un accompagnement sérieux et transparent pour vos travaux de toiture, de l’étude du projet à la fin du chantier.</p>
-  <ul class="checks"><li>Travail soigné et durable</li><li>Matériaux de qualité</li><li>Tarifs clairs et transparents</li><li>Accompagnement personnalisé</li><li>Devis gratuit et sans engagement</li></ul></div>
-</div></section>
+      <span class="tag">Votre spécialiste toiture</span>
 
-<section id="avis" class="reviews"><div class="container"><div class="section-head"><div class="bar"></div><h2>Avis clients</h2><p>La satisfaction de nos clients est au cœur de notre travail.</p></div>
-<div class="review-grid">
-  <div class="review"><div class="stars">★★★★★</div><p>« Travail impeccable, équipe professionnelle et chantier très propre. »</p><small>Client — avis à remplacer par votre vrai avis Google</small></div>
-  <div class="review"><div class="stars">★★★★★</div><p>« Toiture rénovée avec soin, résultat conforme à nos attentes. »</p><small>Client — avis à remplacer par votre vrai avis Google</small></div>
-  <div class="review"><div class="stars">★★★★★</div><p>« Intervention rapide et travail très soigné. »</p><small>Client — avis à remplacer par votre vrai avis Google</small></div>
-</div></div></section>
+    </a>
 
-<section id="contact" class="contact"><div class="container contact-grid">
-  <div><div class="bar"></div><h2>Un projet de toiture ?</h2><p>Parlons-en. Contactez Techni Toiture pour obtenir un devis gratuit et sans engagement.</p>
-  <div class="buttons"><a class="btn primary" href="mailto:VOTRE_EMAIL">Demander un devis</a></div></div>
-  <div class="contact-box"><h3>Contact</h3><p>📞 <a href="tel:VOTRE_NUMERO">VOTRE NUMÉRO</a></p><p>📧 <a href="mailto:VOTRE_EMAIL">VOTRE EMAIL</a></p><p>📍 Île-de-France et alentours</p><p>🕘 Réponse rapide à vos demandes</p></div>
-</div></section>
+    <nav aria-label="Navigation principale">
+
+      <a href="#prestations">Prestations</a>
+
+      <a href="#realisations">Réalisations</a>
+
+      <a href="#contact">Contact</a>
+
+    </nav>
+
+    <a class="phone" href="tel:+33641830010">
+
+      📞 Appeler
+
+    </a>
+
+  </div>
+
+</header>
+
+<main id="accueil">
+
+  <!-- HERO -->
+
+  <section class="hero">
+
+    <div class="container hero-copy">
+
+      <div class="eyebrow">
+
+        TECHNI TOITURE
+
+      </div>
+
+      <h1>
+
+        Votre toiture<br>
+
+        mérite le <span class="orange">meilleur</span>
+
+      </h1>
+
+      <p>
+
+        Rénovation, réparation, nettoyage, couverture et zinguerie
+
+        pour protéger durablement votre maison.
+
+      </p>
+
+      <div class="buttons">
+
+        <a class="btn primary" href="#contact">
+
+          Demander un devis gratuit
+
+        </a>
+
+        <a class="btn secondary" href="tel:+33641830010">
+
+          📞 Appeler maintenant
+
+        </a>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- ENGAGEMENTS -->
+
+  <div class="trust">
+
+    <div>
+
+      🛡️ Travail soigné<br>
+
+      et durable
+
+    </div>
+
+    <div>
+
+      🏠 Solutions adaptées<br>
+
+      à votre toiture
+
+    </div>
+
+    <div>
+
+      ✓ Devis gratuit<br>
+
+      et sans engagement
+
+    </div>
+
+    <div>
+
+      📍 Intervention<br>
+
+      en Île-de-France
+
+    </div>
+
+  </div>
+
+  <!-- PRESTATIONS -->
+
+  <section id="prestations">
+
+    <div class="container">
+
+      <div class="section-head">
+
+        <div class="bar"></div>
+
+        <h2>
+
+          Nos prestations toiture
+
+        </h2>
+
+        <p>
+
+          Techni Toiture vous accompagne pour vos travaux de couverture,
+
+          de rénovation et d'entretien de toiture.
+
+        </p>
+
+      </div>
+
+      <div class="cards">
+
+        <article class="card">
+
+          <div class="icon">🏠</div>
+
+          <h3>Rénovation de toiture</h3>
+
+          <p>
+
+            Rénovation complète ou partielle de votre couverture
+
+            selon l'état et les besoins de votre toiture.
+
+          </p>
+
+        </article>
+
+        <article class="card">
+
+          <div class="icon">🔧</div>
+
+          <h3>Réparation de toiture</h3>
+
+          <p>
+
+            Recherche et réparation des problèmes de couverture,
+
+            tuiles endommagées et infiltrations.
+
+          </p>
+
+        </article>
+
+        <article class="card">
+
+          <div class="icon">✨</div>
+
+          <h3>Nettoyage de toiture</h3>
+
+          <p>
+
+            Nettoyage et entretien de votre couverture pour
+
+            contribuer à préserver son aspect et sa durabilité.
+
+          </p>
+
+        </article>
+
+        <article class="card">
+
+          <div class="icon">💧</div>
+
+          <h3>Zinguerie</h3>
+
+          <p>
+
+            Gouttières, évacuation des eaux pluviales,
+
+            habillages et travaux de zinguerie.
+
+          </p>
+
+        </article>
+
+        <article class="card">
+
+          <div class="icon">🔨</div>
+
+          <h3>Pose de couverture</h3>
+
+          <p>
+
+            Pose et remplacement de différents types de
+
+            couvertures selon votre projet.
+
+          </p>
+
+        </article>
+
+        <article class="card">
+
+          <div class="icon">🧱</div>
+
+          <h3>Échafaudage</h3>
+
+          <p>
+
+            Mise en place des équipements nécessaires au bon
+
+            déroulement des travaux en hauteur.
+
+          </p>
+
+        </article>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- REALISATIONS -->
+
+  <section id="realisations" class="real">
+
+    <div class="container">
+
+      <div class="section-head">
+
+        <div class="bar"></div>
+
+        <h2>
+
+          Nos réalisations
+
+        </h2>
+
+        <p>
+
+          Découvrez quelques exemples de travaux de toiture
+
+          et de rénovation.
+
+        </p>
+
+      </div>
+
+      <div class="gallery">
+
+        <img
+
+          src="https://images.unsplash.com/photo-1632759145351-1d592919f522?auto=format&fit=crop&w=1000&q=80"
+
+          alt="Toiture après rénovation"
+
+          loading="lazy"
+
+          width="1000"
+
+          height="600"
+
+        >
+
+        <img
+
+          src="https://images.unsplash.com/photo-1510798831971-661eb04b3739?auto=format&fit=crop&w=900&q=80"
+
+          alt="Maison avec toiture"
+
+          loading="lazy"
+
+          width="900"
+
+          height="600"
+
+        >
+
+        <img
+
+          src="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=900&q=80"
+
+          alt="Travaux et détails de toiture"
+
+          loading="lazy"
+
+          width="900"
+
+          height="600"
+
+        >
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- POURQUOI TECHNI TOITURE -->
+
+  <section>
+
+    <div class="container about">
+
+      <img
+
+        src="https://images.unsplash.com/photo-1628744448840-55bdb2497bd4?auto=format&fit=crop&w=1100&q=80"
+
+        alt="Professionnel réalisant des travaux sur une toiture"
+
+        loading="lazy"
+
+        width="1100"
+
+        height="700"
+
+      >
+
+      <div>
+
+        <div class="bar"></div>
+
+        <h2>
+
+          Pourquoi choisir Techni Toiture ?
+
+        </h2>
+
+        <p>
+
+          Un accompagnement sérieux et transparent pour vos travaux
+
+          de toiture, de l'étude du projet jusqu'à la fin du chantier.
+
+        </p>
+
+        <ul class="checks">
+
+          <li>
+
+            Travail soigné et durable
+
+          </li>
+
+          <li>
+
+            Solutions adaptées à votre projet
+
+          </li>
+
+          <li>
+
+            Tarifs clairs et transparents
+
+          </li>
+
+          <li>
+
+            Accompagnement personnalisé
+
+          </li>
+
+          <li>
+
+            Devis gratuit et sans engagement
+
+          </li>
+
+        </ul>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- CONTACT -->
+
+  <section id="contact" class="contact">
+
+    <div class="container contact-grid">
+
+      <div>
+
+        <div class="bar"></div>
+
+        <h2>
+
+          Un projet de toiture ?
+
+        </h2>
+
+        <p>
+
+          Contactez Techni Toiture pour discuter de votre projet
+
+          et demander votre devis gratuit.
+
+        </p>
+
+        <div class="buttons">
+
+          <a
+
+            class="btn primary"
+
+            href="mailto:tecnitoiture91@gmail.com?subject=Demande%20de%20devis%20Techni%20Toiture"
+
+          >
+
+            ✉️ Demander un devis
+
+          </a>
+
+          <a
+
+            class="btn secondary"
+
+            href="tel:+33641830010"
+
+          >
+
+            📞 06 41 83 00 10
+
+          </a>
+
+        </div>
+
+      </div>
+
+      <div class="contact-box">
+
+        <h3>
+
+          Contact Techni Toiture
+
+        </h3>
+
+        <p>
+
+          📞
+
+          <a href="tel:+33641830010">
+
+            06 41 83 00 10
+
+          </a>
+
+        </p>
+
+        <p>
+
+          📧
+
+          <a href="mailto:tecnitoiture91@gmail.com">
+
+            tecnitoiture91@gmail.com
+
+          </a>
+
+        </p>
+
+        <p>
+
+          📍 Île-de-France et alentours
+
+        </p>
+
+        <p>
+
+          🕘 Réponse rapide à vos demandes
+
+        </p>
+
+      </div>
+
+    </div>
+
+  </section>
+
 </main>
 
-<footer><div class="container footer-row"><div><strong>TECHNI TOITURE</strong> — Rénovation • Réparation • Nettoyage • Zinguerie</div><div>© 2026 Techni Toiture</div></div></footer>
+<footer>
+
+  <div class="container footer-row">
+
+    <div>
+
+      <strong>TECHNI TOITURE</strong>
+
+      — Rénovation • Réparation • Nettoyage • Couverture • Zinguerie
+
+    </div>
+
+    <div>
+
+      © 2026 Techni Toiture
+
+    </div>
+
+  </div>
+
+</footer>
+
 </body>
+
 </html>
